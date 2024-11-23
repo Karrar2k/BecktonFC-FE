@@ -112,8 +112,7 @@ export default function HomeComponent(props) {
             style={{ fontFamily: "Anton" }}
             className="animate__animated animate__fadeInLeft "
           >
-            Get Exclusive Access to the Latest Soccer News, Events, and Player
-            Stats
+            Welcome to the Beckton Football Club Website!
           </Typography>
           <Typography
             variant="h5"
@@ -122,9 +121,9 @@ export default function HomeComponent(props) {
             paragraph
             className="animate__animated animate__fadeInRight "
           >
-            Join the Ultimate Soccer Fan Club and Unleash Your Passion for the
-            Beautiful Game! and get such as exclusive access to team news and
-            updates, live matches and events, merchandise discounts, and more.
+            Join the Beckton FC Fan Club and Unleash Your Passion for the
+            Beautiful Game! Get exclusive access to team news and
+            updates, live matches and events, merchandise, and more.
           </Typography>
           <Stack
             sx={{ pt: 4 }}

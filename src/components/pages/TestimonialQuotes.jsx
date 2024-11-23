@@ -46,10 +46,9 @@ const TestimonialQuotes = () => {
               color={"white"}
               component="body1"
             >
-              The vision of a champion is someone who is bent over, drenched in
-              sweat, at the point of exhaustion when no one else is watching. -
-              Anson Dorrance, former U.S. Women's National Team coach and
-              University of North Carolina women's soccer coach.
+              "The secret is to believe in your dreams; in your potential that
+              you can be like your star, keep searching, keep believing, and
+              don't lose faith in yourself". -Neymar Jr.
             </Typography>
             <FormatQuoteIcon
               style={{
