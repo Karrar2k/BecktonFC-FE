@@ -7,7 +7,7 @@ import {
   useElements,
 } from "@stripe/react-stripe-js";
  
-const stripePromise = loadStripe("pk_test_51My8EeK1wTZ2urZSice9wpbyHGj80BOb1RDLeyaURz8TCoAgbHgVbwv3z34kBkaWI90Gt2DpXk8vn60UXBizuIC3007IWNzkzW");
+const stripePromise = loadStripe("pk_test_qblFNYngBkEdjEZ16jxxoWSM");
 
 const CheckoutForm = () => {
   const [amount, setAmount] = useState(0);
