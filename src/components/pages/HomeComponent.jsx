@@ -122,8 +122,8 @@ export default function HomeComponent(props) {
             className="animate__animated animate__fadeInRight "
           >
             Join the Beckton FC Fan Club and Unleash Your Passion for the
-            Beautiful Game! Get exclusive access to team news and
-            updates, live matches and events, merchandise, and more.
+            Beautiful Game! Get exclusive access to team news and updates, live
+            matches and events, merchandise, and more.
           </Typography>
           <Stack
             sx={{ pt: 4 }}
@@ -178,9 +178,7 @@ export default function HomeComponent(props) {
             style={{ fontFamily: "Anton", fontWeight: "normal" }}
             className="animate__animated animate__fadeInRight "
           >
-            Register with LFC to win amazing prizes, watch FREE videos, listen
-            to live commentary, get the official Club newsletter and experience
-            the all-new eMagazine
+            Register with BFC to book match tickets and purchase club merchandise!
           </Typography>
           <Stack
             sx={{ pt: 4 }}
@@ -243,10 +241,8 @@ export default function HomeComponent(props) {
             }}
           />
           <Typography variant="body1" textAlign={"center"}>
-            The vision of a champion is someone who is bent over, drenched in
-            sweat, at the point of exhaustion when no one else is watching. -
-            Anson Dorrance, former U.S. Women's National Team coach and
-            University of North Carolina women's soccer coach.
+            “I still remember when my teacher told me that football wouldn’t
+            give me anything to eat.” - Cristiano Ronaldo
           </Typography>
           <FormatQuoteIcon
             style={{

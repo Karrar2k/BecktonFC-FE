@@ -22,7 +22,7 @@ const TestimonialQuotes = () => {
             <CardMedia
               component="img"
               alt="green iguana"
-              image="https://tickets.tygit.com/group-images/list-5568.png"
+              image="https://www.freepnglogos.com/uploads/barcelona-png/neymar-png-barcelona-27.png"
             />
           </Grid>
           <Grid
