@@ -31,7 +31,7 @@ export default function RegisterComponent() {
       return;
     }
 
-    const res = await httpService.axiosInstance.post("/user/register", data);
+    const res = await httpService.axiosInstance.post("/api/user/register", data);
     switch (res.status) {
       case 201:
         navigate("/login", { replace: true });
@@ -124,7 +124,7 @@ export default function RegisterComponent() {
                 >
                   <MenuItem value={"male"}>Male</MenuItem>
                   <MenuItem value={"female"}>Female</MenuItem>
-                  <MenuItem value={"other"}>Not Specified</MenuItem>
+                  <MenuItem value={"other"}>Rather Not Say</MenuItem>
                 </Select>
               </FormControl>
             </Grid>
@@ -156,8 +156,8 @@ export default function RegisterComponent() {
                   }}
                 >
                   * Password must be at least 6 characters long <br />
-                  * You can include letters, numbers, and the following <br />*
-                  Do not share your password with anyone.
+                  * You should include numbers and symbols <br />*
+                  * Do not share your password with anyone.
                 </Typography>
               </Box>
             </Grid>

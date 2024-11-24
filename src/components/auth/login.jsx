@@ -27,7 +27,7 @@ export default function LoginComponent(props) {
     }
 
     try {
-      const res = await httpService.axiosInstance.post("/user/login", data);
+      const res = await httpService.axiosInstance.post("/api/user/login", data);
       if (res.status === 200) {
         toastr.success(res.data.message);
         localStorage.setItem("auth-token", res.data.token);
