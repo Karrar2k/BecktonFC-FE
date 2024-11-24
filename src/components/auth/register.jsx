@@ -157,7 +157,7 @@ export default function RegisterComponent() {
                 >
                   * Password must be at least 6 characters long <br />
                   * You can include letters, numbers, and the following <br />*
-                  Do not share your password with anyone
+                  Do not share your password with anyone.
                 </Typography>
               </Box>
             </Grid>

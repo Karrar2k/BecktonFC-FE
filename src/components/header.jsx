@@ -89,9 +89,8 @@ function Header(props) {
           height: 100,
           backgroundColor: "#ffffff",
           boxShadow: "rgba(149, 157, 165, 0.2) 0px 8px 24px;",
-          marginBottom: (role && role === 'user') ? 3 : 0 
+          marginBottom: role && role === "user" ? 3 : 0,
         }}
-        
       >
         <div className="d-flex justify-content-between align-items-center h-100 px-5 header">
           <div
@@ -100,7 +99,7 @@ function Header(props) {
             onClick={() => navigate("/")}
           >
             <img
-              src="https://www.liverpoolfc.com/liverpoolfc_crest.png"
+              src="https://i.ibb.co/191KRWf/kZ0mvhf.png"
               alt=""
               style={{
                 width: "100%",
@@ -117,8 +116,7 @@ function Header(props) {
               ) {
                 return null; // hide the login link
               } else if (
-                (item.title === "LOGOUT" ||
-                  item.title === "PROFILE") &&
+                (item.title === "LOGOUT" || item.title === "PROFILE") &&
                 !isLoggedIn
               ) {
                 return null; // hide the logout link

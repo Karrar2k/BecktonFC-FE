@@ -61,7 +61,7 @@ export default function LogoutComponent(props) {
                 color: "#fff",
               }}
             >
-              Thanks for using Soccer FC
+              See you next time!
             </Typography>
           </Box>
         </Paper>
