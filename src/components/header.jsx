@@ -102,7 +102,7 @@ function Header(props) {
               src="https://i.ibb.co/191KRWf/kZ0mvhf.png"
               alt=""
               style={{
-                width: "100%",
+                width: "200%",
                 height: "100%",
               }}
             />
