@@ -16,9 +16,7 @@ import toastr from "toastr";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import jwt_decode from "jwt-decode";
-const stripePromise = loadStripe(
-  "pk_test_51My8EeK1wTZ2urZSice9wpbyHGj80BOb1RDLeyaURz8TCoAgbHgVbwv3z34kBkaWI90Gt2DpXk8vn60UXBizuIC3007IWNzkzW"
-);
+const stripePromise = loadStripe("pk_test_qblFNYngBkEdjEZ16jxxoWSM");
 
 function ReviewDetails({ data, onSubmit }) {
   const stripe = useStripe();
